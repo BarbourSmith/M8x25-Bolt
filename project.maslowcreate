@@ -18,7 +18,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 14
                         }
                     ]
                 },
@@ -31,9 +31,68 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 8
                         }
                     ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 300,
+                    "y": 108,
+                    "uniqueID": 277007,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 4.4
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 292,
+                    "y": 217,
+                    "uniqueID": 651646,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": -25
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 510,
+                    "y": 155,
+                    "uniqueID": 839052,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 924077",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 948719",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 683,
+                    "y": 156,
+                    "uniqueID": 739190,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "M8x25 Bolt",
+                        "numberNeeded": 1,
+                        "costUSD": 0.32,
+                        "source": "https://www.mcmaster.com/91239a427",
+                        "totalNeeded": 0
+                    }
                 },
                 {
                     "atomType": "Output",
@@ -43,7 +102,43 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 343567,
+                    "ap2ID": 277007
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 580585,
+                    "ap2ID": 651646
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 948719",
+                    "ap1ID": 277007,
+                    "ap2ID": 839052
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 924077",
+                    "ap1ID": 651646,
+                    "ap2ID": 839052
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 839052,
+                    "ap2ID": 739190
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 739190
+                }
+            ],
             "fileTypeVersion": 1
         }
     ],
