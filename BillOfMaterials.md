@@ -2,7 +2,6 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|M8x25 Bolt|1|$0.32|https://www.mcmaster.com/91239a427|
-|Total: |1|$0.32| |
+|Total: |0|$0.00| |
 
- 3xCOG MSRP: $0.96
+ 3xCOG MSRP: $0.00

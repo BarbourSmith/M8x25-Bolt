@@ -4,9 +4,3 @@
 
 ![](/project.svg)
 
-## M8x25 Bolt
-
-
-undefined
-
-
